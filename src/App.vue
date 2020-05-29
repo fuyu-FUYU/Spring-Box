@@ -1,10 +1,7 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <h3>弹框</h3>
+    <router-view />
   </div>
 </template>
 
@@ -16,7 +13,11 @@
   text-align: center;
   color: #2c3e50;
 }
-
+h3{
+  padding: 0;
+  margin: 0;
+  font-size: 0.53rem
+}
 #nav {
   padding: 30px;
 }
